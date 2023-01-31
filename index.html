@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+<script>
+                        /*--------------------- sequence loop -----------------------*/
+for (var i = 1; i <= 10; i++) {
+    document.write(i);
+	document.write('<br>')
+}
+document.write('<br>');
+
+                         /*--------------------- Reverse order loop -----------------------*/
+for (var i = 10; i >= 1; i--) {
+    document.write(i);
+	document.write('<br>');
+}
+document.write('<br>');
+                           /*--------------------- Even number loop -----------------------*/					   
+var k = 1;
+while(k <= 20){
+if((k%2)== 0){
+document.write(k);
+document.write('<br>');
+}
+k++;
+}
+document.write('<br>');
+                           /*--------------------- Odd number loop -----------------------*/
+var k = 1;
+while(k <= 20){
+if((k%2)== 1){
+document.write(k);
+document.write('<br>');
+}
+k++;
+}
+document.write('<br>');
+                         /*--------------------- Use function and loop -----------------------*/
+var a=prompt('enter a name');
+var b=prompt('how many times');
+for(i = 0; i<=b ; i++){
+   document.write(a);
+   document.write('<br>')
+} 
+
+                         /*-------------------- swap Two number using function -----------------*/
+let x = 10;
+let y = 15;
+function swap(){
+      console.log(x,y)
+	  let num = x;
+      x = y; 
+      y = num;
+      console.log(x,y);
+}
+swap();
+document.write('<br>');
+
+                        /*--------------------- Number of Times output -----------------------*/
+let name='xyz';
+function addNum(){
+   let sum=name ;
+   document.write(sum);
+   document.write('<br>')
+}
+addNum();
+addNum();
+addNum();
+document.write('<br>');
+                       /*--------------------- Factorial -----------------------*/
+ var a = parseInt(prompt('enter a number'));
+ c=1;
+ while(a){
+   var c=c*a; 
+	--a;
+ }
+  document.write(c);
+  </script>
+</script>
+</body>
+</html>
